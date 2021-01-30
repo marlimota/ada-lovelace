@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: Georgia,Utopia,Charter,serif;
+  background-color: #939597; 
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(243,223,77, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(243, 223, 77, 0.5));
+}
+
+h2 {
+  color: #F5DF4D;
+  font-size: 50px;
+}
+
+h3 {
+  color: #F5DF4D;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+h4 {
+  color: #F5DF4D;
+  font-style: oblique;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+p{
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+img{
+  width: 70%;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+a:hover {
+  font-weight: 800;
+  color: #F5DF4D;
+}
+
+button{
+  background:#F5DF4D;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 2px rgb(95, 92, 92);
+  color: #939597;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 0 #F5DF4D inset, 0 0 10px 4px #F5DF4D;
+}
+
+.menu {
+  background: #F5DF4D;
+  height: 45px;
+  max-width: 60%;
+  margin: 0 auto;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(71, 71, 71, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(83, 83, 83, 0.5));
+  border-radius: 25px;
+}
+
+.menu a {
+  color: #fff;
+  font-weight: 550;
+}
+
+.menu a:hover {
+  -webkit-filter: drop-shadow(10px 7px 3px rgba(36, 35, 35, 0.3));
+  text-shadow: 0px 0px 2px #0a0a0a;
+}
+
+.menu li {
+  display: inline-block;
+  line-height: 2;
+  margin: 0 70px;
+  padding: 0.5px;
+  border-radius: 3px;
+}
+
+#coracao {
+  color: #F5DF4D;
+  font-size: 20px;
+}
+
